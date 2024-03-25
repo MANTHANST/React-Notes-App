@@ -1,0 +1,58 @@
+.card {
+    width: 12rem;
+    height: 10rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, .5);
+    background-color: white;
+}
+
+h2, p {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    word-wrap: break-word;
+}
+
+h2 {
+    padding-block-end: .5rem;
+    height: 1.75rem;
+}
+
+p {
+    height: 65%;
+}
+
+.buttons-container {
+    width: 90%;
+    display: flex;
+}
+
+.checkbox[type="checkbox"] {
+    cursor: pointer;
+}
+
+.delete {
+    width: 1.75rem;
+    height: 1.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    left: 90%;
+    cursor: pointer;
+    transition: all .15s linear;
+}
+
+.delete:hover {
+    background-color: red;
+    color: white;
+}
+
+.delete:hover i {
+    transform: scale(.85);
+}
+
+i {
+    transition: transform .15s linear;
+}

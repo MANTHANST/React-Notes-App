@@ -1,0 +1,32 @@
+nav {
+    /* background-color: rgb(232, 232, 4); */
+    background-color: black;
+    padding: 1.25rem;
+    border-bottom: .2rem solid darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toggle-btn {
+    width: 3.75rem;
+    height: 1.5rem;
+    border-radius: 100rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+    transition: all .15s linear;
+}
+
+.circle {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100rem;
+    background-color: black;
+    cursor: pointer;
+    transition: all .15s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

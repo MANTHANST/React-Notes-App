@@ -1,0 +1,65 @@
+#note-container {
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#note {
+    width: 25rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, .5);
+    background-color: white;
+}
+
+input {
+    flex-basis: 10%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-bottom: 0.1rem solid darkgray;
+    outline: none;
+    border-radius: 1rem;
+    text-transform: capitalize;
+}
+
+textarea {
+    height: 5.5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    scrollbar-width: thin;
+    resize: none;
+    text-transform: capitalize;
+}
+
+#circle {
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    position: relative;
+    left: 85%;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, .5);
+    transition: all .15s linear;
+    /* background-color: white; */
+}
+
+#circle:hover {
+    background-color: lime;
+    color: white;
+    box-shadow: none;
+}
+
+#circle i {
+    margin-top: 60%;
+    font-size: 1.5rem;
+}
